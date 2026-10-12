@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalización | FiOzil</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" alt="Logo FiOzil">
+        <span>FiOzil</span>
+      </a>
+      <form class="search" data-search-form>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3-3"/></svg>
+        <input type="search" name="q" placeholder="" aria-label="Buscar">
+      </form>
+      <button class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a class="active" href="personalizacion.html">Personalización</a>
+        <a href="nosotros.html">Sobre Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Personalización a tu medida</h1>
+      <p>Cuéntanos tu idea y la fabricamos con corte y grabado láser.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col">
+      <div class="prose">
+        <h2>¿Cómo trabajamos?</h2>
+        <p>Recibimos tu idea, logo o frase, te proponemos materiales y medidas, y fabricamos una pieza única. Puedes personalizar agendas, llaveros, letreros, recuerdos de eventos y más.</p>
+        <div class="steps">
+          <article class="step"><span>1</span><h3>Idea</h3><p>Envíanos el nombre, logo o diseño que deseas grabar o cortar.</p></article>
+          <article class="step"><span>2</span><h3>Cotización</h3><p>Te confirmamos material, tamaño, tiempo y costo por WhatsApp.</p></article>
+          <article class="step"><span>3</span><h3>Fabricación</h3><p>Producimos tu pedido con precisión láser y te avisamos cuando está listo.</p></article>
+        </div>
+      </div>
+      <form class="form" data-quote-form>
+        <h2 style="margin:0 0 8px;color:var(--primary);">Solicitar cotización</h2>
+        <label>Nombre<input name="nombre" required></label>
+        <label>Teléfono / WhatsApp<input name="telefono" required></label>
+        <label>Producto
+          <select name="producto" required>
+            <option value="">Selecciona una opción</option>
+            <option>Agendas</option>
+            <option>Cumpleaños</option>
+            <option>Bautizos</option>
+            <option>Graduaciones</option>
+            <option>Corporativos & Marcas</option>
+            <option>Bodas & Aniversarios</option>
+            <option>Letreros</option>
+            <option>Cajas de regalo</option>
+            <option>Otro / diseño propio</option>
+          </select>
+        </label>
+        <label>Describe tu pedido<textarea name="mensaje" required placeholder="Medidas, material, texto a grabar, cantidad..."></textarea></label>
+        <button class="btn btn-primary" type="submit">Enviar por WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.svg" alt="FiOzil">
+          <h3>Fabricación Digital<small>FiOzil</small></h3>
+        </div>
+        <p>Combinamos precisión tecnológica, corte láser y grabado de alta calidad para crear productos únicos.</p>
+      </div>
+      <div>
+        <h4>Información de Contacto</h4>
+        <ul class="contact-list">
+          <li><svg viewBox="0 0 24 24" stroke-width="2"><path d="M6 4h3l2 5-2 1a12 12 0 0 0 5 5l1-2 5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 4 6a2 2 0 0 1 2-2z"/></svg><span>Teléfono: 938102045-930828281</span></li>
+          <li><svg viewBox="0 0 24 24" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 7 9-7"/></svg><span>ozilanglassuarez@gmail.com</span></li>
+          <li><svg viewBox="0 0 24 24" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 7 9-7"/></svg><span>FiOzilfabricacióndigital@gmail.com</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <a href="productos.html">Página de Productos</a>
+      <span>© 2026 FiOzil Fabricación Digital. Todos los Derechos Reservados.</span>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
